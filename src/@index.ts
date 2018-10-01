@@ -10,8 +10,8 @@
  *
  */
  
-declare const lodashExports: any;
-const _ = lodashExports();
+declare const lodashModuleExports: any;
+const _ = lodashModuleExports();
 const lodash = _;
 const Lodash = _;
 
