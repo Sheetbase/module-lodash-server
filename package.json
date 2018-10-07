@@ -1,11 +1,15 @@
 {
 	"name": "@sheetbase/lodash-server",
 	"type": "module",
-	"version": "4.17.11",
+	"version": "4.17.11-1",
 	"description": "Lodash for Google apps script.",
 	"author": "Sheetbase",
 	"homepage": "https://sheetbase.net",
 	"license": "MIT",
+	"scripts": {
+		"build": "sheetbase-app-scripts build --vendor",
+		"push": "sheetbase-app-scripts push"
+	},
 	"keywords": [
 		"google-apps-script",
 		"utilities"
@@ -19,6 +23,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
+		"@sheetbase/app-scripts": "0.0.5",
 		"@types/google-apps-script": "0.0.28"
 	}
 }

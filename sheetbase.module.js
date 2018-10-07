@@ -1,3 +1,17 @@
+var exports = exports || {};
+var module = module || { exports: exports };
+/**
+ * Sheetbase module
+ * Name: @sheetbase/lodash-server
+ * Export name: Lodash
+ * Description: Lodash for Google apps script.
+ * Version: 4.17.11-1
+ * Author: Sheetbase
+ * Homepage: https://sheetbase.net
+ * License: MIT
+ * Repo: https://github.com/sheetbase/module-lodash-server.git
+ */
+
 /**
  * Sheetbase Modifications
  * This file was modified by Sheetbase.
@@ -149,3 +163,6 @@ exports.LodashModule = LodashModule;
 var proccess = proccess || this;
 proccess['_'] = LodashModule();
 /*</sheetbase>*/
+// add to the global namespace
+var proccess = proccess || this;
+proccess['Lodash'] = LodashModule();
