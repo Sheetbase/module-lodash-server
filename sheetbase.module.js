@@ -6,8 +6,8 @@ var module = module || { exports: exports };
  * Export name: Lodash
  * Description: Lodash for Google apps script.
  * Version: 4.17.11-1
- * Author: Sheetbase
- * Homepage: https://sheetbase.net
+ * Author: Lodash
+ * Homepage: https://lodash.com/
  * License: MIT
  * Repo: https://github.com/sheetbase/module-lodash-server.git
  */
