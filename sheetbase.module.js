@@ -5,7 +5,7 @@ var module = module || { exports: exports };
  * Name: @sheetbase/lodash-server
  * Export name: Lodash
  * Description: Lodash for Google apps script.
- * Version: 4.17.11-1
+ * Version: 4.17.11-2
  * Author: Lodash
  * Homepage: https://lodash.com/
  * License: MIT
@@ -163,6 +163,7 @@ exports.LodashModule = LodashModule;
 var proccess = proccess || this;
 proccess['_'] = LodashModule();
 /*</sheetbase>*/
-// add to the global namespace
-var proccess = proccess || this;
-proccess['Lodash'] = LodashModule();
+// add 'Lodash' to the global namespace
+(function (process) {
+    process['Lodash'] = LodashModule();
+})(this);

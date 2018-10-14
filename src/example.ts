@@ -1,7 +1,6 @@
-declare const LodashModule: {()};
-var Lodash = Lodash || LodashModule();
+import { LodashModule } from '../index';
 
-const _ = Lodash;
+const _ = LodashModule();
 
 export function example1(): void {
     const chunk = _.chunk(['a', 'b', 'c', 'd'], 2);
