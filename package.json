@@ -17,10 +17,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sheetbase/module-lodash-server.git"
+		"url": "https://github.com/sheetbase/lodash-server.git"
 	},
 	"bugs": {
-		"url": "https://github.com/sheetbase/module-lodash-server/issues"
+		"url": "https://github.com/sheetbase/lodash-server/issues"
 	},
 	"dependencies": {},
 	"devDependencies": {
